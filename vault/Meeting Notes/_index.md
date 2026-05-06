@@ -10,3 +10,4 @@ Code sessions, architecture decisions, feature work, and development logs.
 - [[vault-setup]] — Obsidian vault folder structure and session-start protocol
 - [[jacob-ceo-agent]] — Jacob (יעקב) CEO Router Agent: design, sequential protocol, retry logic
 - [[yuval-agent]] — Yuval (יובל) creative image agent + gpt-image-gen skill: workflow, reference scan, outputs
+- [[yael-agent]] — Yael (יעל) LLM-only content writer/rewriter + Jacob's Phase 1.5 IMAGE_NEEDED bridge to Yuval
