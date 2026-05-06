@@ -9,3 +9,4 @@ Code sessions, architecture decisions, feature work, and development logs.
 - [[claude-skills-obsidian]] — 3 Obsidian skills (vault-workflow, markdown, bases)
 - [[vault-setup]] — Obsidian vault folder structure and session-start protocol
 - [[jacob-ceo-agent]] — Jacob (יעקב) CEO Router Agent: design, sequential protocol, retry logic
+- [[yuval-agent]] — Yuval (יובל) creative image agent + gpt-image-gen skill: workflow, reference scan, outputs
