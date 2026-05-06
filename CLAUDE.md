@@ -40,3 +40,13 @@ Each folder has an `_index.md` listing all topics inside it.
 4. Read 2–3 most recent `vault/Meeting Notes/` entries
 
 **At the end of every task**, append a dated session entry to the relevant topic file (or create a new one) and update `_index.md`.
+
+## Main Orchestrator: Jacob
+
+All multi-step content creation tasks are routed through **Jacob**, the CEO Router Agent.
+
+- Agent definition: `.claude/agents/jacob.md`
+- Jacob analyzes the task, builds the sequential execution chain, manages QA and retries, and returns a clean Markdown report
+- Direct invocation of sub-agents (agent-1 through agent-4) is for debugging only
+
+Do not invoke sub-agents directly for production tasks. Jacob is the single entry point.
